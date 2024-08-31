@@ -17,7 +17,7 @@ If you choose not to run docker, use a python virtual environment to prevent con
 # Testing
 
 ## makefile  
-1. run makefile test to test all "*test*.py" files in src/test/ 
+1. run makefile test to test all "\*test\*.py" files in src/test/ 
 ## VS code testing  
 1. Can also use the VS-code testing menu in the same way.
 
@@ -27,8 +27,8 @@ If you choose not to run docker, use a python virtual environment to prevent con
 
 * `Pylint`
 
-* `.devcontaner` with Dockerfile, json, and post install script
+* `.devcontaner` with `Dockerfile`, `devcontaner.json`, and `postinstall.sh` 
 
-*  vscode settings.json for testing
+*  vscode `settings.json` for testing
 
-*  A base set of libraries
+*  A base set of libraries in [text](requirements.txt)
