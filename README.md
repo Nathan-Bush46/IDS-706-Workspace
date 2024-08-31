@@ -23,12 +23,12 @@ If you choose not to run docker, use a python virtual environment to prevent con
 
 ## Things included are:
 
-* `Makefile`
+* [`Makefile`](Makefile)
 
 * `Pylint`
 
-* `.devcontaner` with `Dockerfile`, `devcontaner.json`, and `postinstall.sh` 
+* `.devcontainer` with [`Dockerfile`](/.devcontainer/Dockerfile), [`postinstall.sh`](/.devcontainer/postinstall.sh), and [`devcontainer.json`](/.devcontainer/devcontainer.json)`
 
-*  vscode `settings.json` for testing
+*  [`settings.json`](.vscode/settings.json) for testing
 
-*  A base set of libraries in [text](requirements.txt)
+*  A base set of libraries in [requirements](requirements.txt)
