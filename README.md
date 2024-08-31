@@ -31,4 +31,4 @@ If you choose not to run docker, use a python virtual environment to prevent con
 
 *  [`settings.json`](.vscode/settings.json) for testing
 
-*  A base set of libraries in ['requirements.txt'](requirements.txt)
+*  A base set of libraries in [`requirements.txt`](requirements.txt)
