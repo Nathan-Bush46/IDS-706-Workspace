@@ -31,4 +31,10 @@ jobs:
     - name: run test
       run: |
         make test
+    - name: run linting
+      run: |
+        make lint
+    - name: run formatting (black)
+      run: |
+        make format
     - run: echo "🍏 This job's status is ${{ job.status }}."

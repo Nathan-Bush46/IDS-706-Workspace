@@ -2,19 +2,17 @@ import random
 
 
 def predict_word():
-    '''predict a word'''
+    """predict a word"""
     return "the"
 
 
 def predict_unigram():
-    '''predict a unigram'''
-    return {"the": 0.6,
-            "of": 0.3,
-            "dinosaur": 0.1}
+    """predict a unigram"""
+    return {"the": 0.6, "of": 0.3, "dinosaur": 0.1}
 
 
 def sample_from_distribution(dist: dict[str, float], k: int):
-    '''Sample from distribution'''
+    """Sample from distribution"""
     pop = list(dist.keys())
     weights = list(dist.values())
     print(pop, weights)
