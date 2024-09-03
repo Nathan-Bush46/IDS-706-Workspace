@@ -1,5 +1,7 @@
 # IDS-706-Workspace
 
+[![Docker Image CI](https://github.com/Nathan-Bush46/IDS-706-Workspace/actions/workflows/docker-image.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS-706-Workspace/actions/workflows/docker-image.yml)
+
 ## Set up instructions using VS code + Docker: 
 ### Docker
 1. For Windows, Mac, and maybe Linux, you download Docker Desktop. links can be found [here](https://docs.docker.com/engine/install/). Follow set up instructions and start the application.
