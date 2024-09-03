@@ -19,7 +19,16 @@ If you choose not to run docker, use a python virtual environment to prevent con
 ## Testing
 
 ### makefile  
-1. run makefile test to test all "\*test\*.py" files in src/test/ 
+* install
+
+* test ex: *makefile test* to test all "\*test\*.py" files in src/test/ 
+
+* lint
+
+* format
+
+* all 
+
 ### VS code testing  
 1. Can also use the VS-code testing menu in the same way.
 
