@@ -27,5 +27,5 @@ jobs:
         ls ${{ github.workspace }}
     - name: run test
       run: |
-        make tests
+        make test
     - run: echo "🍏 This job's status is ${{ job.status }}."
